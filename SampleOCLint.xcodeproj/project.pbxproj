@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA7DFF659F36FD69F8C5B1F /* libPods-SampleOCLintTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0611C18744F682F6339DAF9 /* libPods-SampleOCLintTests.a */; };
 		B2C3E0C41FB9CBCF003EF3CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E0C31FB9CBCF003EF3CA /* AppDelegate.m */; };
 		B2C3E0C71FB9CBCF003EF3CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E0C61FB9CBCF003EF3CA /* ViewController.m */; };
 		B2C3E0CA1FB9CBCF003EF3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C3E0C81FB9CBCF003EF3CA /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		B2C3E0CF1FB9CBCF003EF3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C3E0CD1FB9CBCF003EF3CA /* LaunchScreen.storyboard */; };
 		B2C3E0D21FB9CBCF003EF3CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E0D11FB9CBCF003EF3CA /* main.m */; };
 		B2C3E0DC1FB9CBCF003EF3CA /* SampleOCLintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C3E0DB1FB9CBCF003EF3CA /* SampleOCLintTests.m */; };
+		C3413697AA5D989E689F98D6 /* libPods-SampleOCLint.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536BB8E2E414FA19D35272EE /* libPods-SampleOCLint.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		308E0634A862E3A461055AB1 /* Pods-SampleOCLintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleOCLintTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleOCLintTests/Pods-SampleOCLintTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BD1724A1EE98691AB1D8D65 /* Pods-SampleOCLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleOCLint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleOCLint/Pods-SampleOCLint.debug.xcconfig"; sourceTree = "<group>"; };
+		536BB8E2E414FA19D35272EE /* libPods-SampleOCLint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleOCLint.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83964AE237A6CB0F7D9C5461 /* Pods-SampleOCLintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleOCLintTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleOCLintTests/Pods-SampleOCLintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3A5C943CDE3C6065A37DFDC /* Pods-SampleOCLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleOCLint.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleOCLint/Pods-SampleOCLint.release.xcconfig"; sourceTree = "<group>"; };
 		B2C3E0BF1FB9CBCF003EF3CA /* SampleOCLint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleOCLint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C3E0C21FB9CBCF003EF3CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B2C3E0C31FB9CBCF003EF3CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +47,7 @@
 		B2C3E0D71FB9CBCF003EF3CA /* SampleOCLintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleOCLintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C3E0DB1FB9CBCF003EF3CA /* SampleOCLintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleOCLintTests.m; sourceTree = "<group>"; };
 		B2C3E0DD1FB9CBCF003EF3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0611C18744F682F6339DAF9 /* libPods-SampleOCLintTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleOCLintTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3413697AA5D989E689F98D6 /* libPods-SampleOCLint.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA7DFF659F36FD69F8C5B1F /* libPods-SampleOCLintTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AF7E46034767C21D88FF80D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536BB8E2E414FA19D35272EE /* libPods-SampleOCLint.a */,
+				D0611C18744F682F6339DAF9 /* libPods-SampleOCLintTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2C3E0B61FB9CBCF003EF3CA = {
 			isa = PBXGroup;
 			children = (
 				B2C3E0C11FB9CBCF003EF3CA /* SampleOCLint */,
 				B2C3E0DA1FB9CBCF003EF3CA /* SampleOCLintTests */,
 				B2C3E0C01FB9CBCF003EF3CA /* Products */,
+				D89F1CFD2AA67EF78FABFE50 /* Pods */,
+				6AF7E46034767C21D88FF80D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,17 @@
 			path = SampleOCLintTests;
 			sourceTree = "<group>";
 		};
+		D89F1CFD2AA67EF78FABFE50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BD1724A1EE98691AB1D8D65 /* Pods-SampleOCLint.debug.xcconfig */,
+				A3A5C943CDE3C6065A37DFDC /* Pods-SampleOCLint.release.xcconfig */,
+				83964AE237A6CB0F7D9C5461 /* Pods-SampleOCLintTests.debug.xcconfig */,
+				308E0634A862E3A461055AB1 /* Pods-SampleOCLintTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C3E0E01FB9CBCF003EF3CA /* Build configuration list for PBXNativeTarget "SampleOCLint" */;
 			buildPhases = (
+				35C20896EDB010E638BF7B1B /* [CP] Check Pods Manifest.lock */,
 				B2C3E0BB1FB9CBCF003EF3CA /* Sources */,
 				B2C3E0BC1FB9CBCF003EF3CA /* Frameworks */,
 				B2C3E0BD1FB9CBCF003EF3CA /* Resources */,
+				3A630C199B3EE502AECAAF52 /* [CP] Embed Pods Frameworks */,
+				84346324E2A7BF99F63D37C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C3E0E31FB9CBCF003EF3CA /* Build configuration list for PBXNativeTarget "SampleOCLintTests" */;
 			buildPhases = (
+				2CA32FA18C9F1E2C6A13B2D8 /* [CP] Check Pods Manifest.lock */,
 				B2C3E0D31FB9CBCF003EF3CA /* Sources */,
 				B2C3E0D41FB9CBCF003EF3CA /* Frameworks */,
 				B2C3E0D51FB9CBCF003EF3CA /* Resources */,
+				78D087304E383B6F567B8723 /* [CP] Embed Pods Frameworks */,
+				2C856C840EDB613E096D3F14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +237,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C856C840EDB613E096D3F14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleOCLintTests/Pods-SampleOCLintTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA32FA18C9F1E2C6A13B2D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleOCLintTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35C20896EDB010E638BF7B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleOCLint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A630C199B3EE502AECAAF52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleOCLint/Pods-SampleOCLint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78D087304E383B6F567B8723 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleOCLintTests/Pods-SampleOCLintTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84346324E2A7BF99F63D37C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleOCLint/Pods-SampleOCLint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2C3E0BB1FB9CBCF003EF3CA /* Sources */ = {
@@ -355,9 +492,11 @@
 		};
 		B2C3E0E11FB9CBCF003EF3CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD1724A1EE98691AB1D8D65 /* Pods-SampleOCLint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = 43Z9WE284C;
 				INFOPLIST_FILE = SampleOCLint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -369,6 +508,7 @@
 		};
 		B2C3E0E21FB9CBCF003EF3CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A5C943CDE3C6065A37DFDC /* Pods-SampleOCLint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,9 +523,11 @@
 		};
 		B2C3E0E41FB9CBCF003EF3CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83964AE237A6CB0F7D9C5461 /* Pods-SampleOCLintTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = 43Z9WE284C;
 				INFOPLIST_FILE = SampleOCLintTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -398,6 +540,7 @@
 		};
 		B2C3E0E51FB9CBCF003EF3CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308E0634A862E3A461055AB1 /* Pods-SampleOCLintTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

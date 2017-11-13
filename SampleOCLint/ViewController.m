@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString * ds = [NSString stringWithFormat:@""];
+    if ([ds isEqualToString:@"dsadsa"]) {
+        //Do nothing to show at least one code smell.
+    }
 }
 
 
