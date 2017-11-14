@@ -5,6 +5,7 @@ matrix:
       osx_image: xcode9.1
 before_install:
 # Download oclint
+  - pod repo update
   - pod install
   - mkdir tmp
   - cd /tmp
