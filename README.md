@@ -1,0 +1,3 @@
+# SampleOCLint
+
+OCLint bug sample.
