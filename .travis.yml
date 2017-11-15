@@ -9,13 +9,13 @@ before_install:
   - pod install
   - mkdir tmp
   - cd /tmp
-  - curl -OL "https://github.com/oclint/oclint/releases/download/v0.12/oclint-0.12-x86_64-darwin-16.5.0.tar.gz"
-  - tar -xvzf /tmp/oclint-0.12-x86_64-darwin-16.5.0.tar.gz
+  - curl -OL "https://github.com/oclint/oclint/releases/download/v0.13/oclint-0.13-x86_64-darwin-16.7.0.tar.gz"
+  - tar -xvzf /tmp/oclint-0.13-x86_64-darwin-16.7.0.tar.gz
   - cd $TRAVIS_BUILD_DIR
   - ls
 
 # Export oclint to path
-  - OCLINT_HOME=/tmp/oclint-0.12
+  - OCLINT_HOME=/tmp/oclint-0.13
   - cp $OCLINT_HOME/bin/oclint* /usr/local/bin/
   - cp -rp $OCLINT_HOME/lib/* /usr/local/lib/
   - cp -rp $OCLINT_HOME/include/* /usr/local/include/
