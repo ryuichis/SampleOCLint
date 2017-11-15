@@ -11,7 +11,8 @@ before_install:
   - cd /tmp
   - curl -OL "https://github.com/oclint/oclint/releases/download/v0.12/oclint-0.12-x86_64-darwin-16.5.0.tar.gz"
   - tar -xvzf /tmp/oclint-0.12-x86_64-darwin-16.5.0.tar.gz
-  - cd ..
+  - cd $TRAVIS_BUILD_DIR
+  - ls
 
 # Export oclint to path
   - OCLINT_HOME=/tmp/oclint-0.12
@@ -21,5 +22,5 @@ before_install:
 
 script:
   - set -o pipefail
-  - xcodebuild -scheme $XCSCHEME -workspace $XCWORKSPACE -configuration Debug -sdk iphonesimulator | tee xcodebuild.log | xcpretty -r json-compilation-database -o compile_commands.json
+  - xcodebuild -scheme $TRAVIS_XCODE_SCHEME -workspace $TRAVIS_XCODE_WORKSPACE -configuration Debug -sdk $TRAVIS_XCODE_SDK | tee xcodebuild.log | xcpretty -r json-compilation-database -o compile_commands.json
   - oclint-json-compilation-database -e Pods .
