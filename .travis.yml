@@ -7,13 +7,11 @@ before_install:
 # Download oclint
   - pod repo update
   - pod install
-  - mkdir tmp
-  - cd /tmp
   - curl -OL "https://github.com/oclint/oclint/releases/download/v0.12/oclint-0.12-x86_64-darwin-16.5.0.tar.gz"
   - tar -xvzf /tmp/oclint-0.12-x86_64-darwin-16.5.0.tar.gz
 
 # Export oclint to path
-  - OCLINT_HOME=/tmp/oclint-0.12
+  - OCLINT_HOME=/oclint-0.12
   - cp $OCLINT_HOME/bin/oclint* /usr/local/bin/
   - cp -rp $OCLINT_HOME/lib/* /usr/local/lib/
   - cp -rp $OCLINT_HOME/include/* /usr/local/include/
