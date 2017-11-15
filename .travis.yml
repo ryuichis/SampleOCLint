@@ -8,7 +8,7 @@ before_install:
   - pod repo update
   - pod install
   - curl -OL "https://github.com/oclint/oclint/releases/download/v0.12/oclint-0.12-x86_64-darwin-16.5.0.tar.gz"
-  - tar -xvzf /oclint-0.12-x86_64-darwin-16.5.0.tar.gz
+  - tar -xvzf oclint-0.12-x86_64-darwin-16.5.0.tar.gz
 
 # Export oclint to path
   - OCLINT_HOME=/oclint-0.12
