@@ -26,6 +26,10 @@ before_install:
 
 script:
   - set -o pipefail
+  - oclint --version
+  - oclint test.m --
   - xcodebuild -scheme SampleOCLint -workspace SampleOCLint.xcworkspace -configuration Debug -sdk iphonesimulator | tee xcodebuild.log | xcpretty -r json-compilation-database -o compile_commands.json
-  - oclint-json-compilation-database -e Pods
+  - cat xcodebuild.log
+  - cat compile_commands.json
+  - oclint-json-compilation-database -v -e Pods
   - cat ./sonar-reports/oclint.xml
