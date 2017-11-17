@@ -5,8 +5,6 @@ rule-configurations:
     value: 20
   - key: NPATH_COMPLEXITY
     value: 300
-output: sonar-reports/oclint.xml
-report-type: pmd
 max-priority-1: 200
 max-priority-2: 1000
 max-priority-3: 1000
