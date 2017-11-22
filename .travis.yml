@@ -38,5 +38,7 @@ script:
   - cat xcodebuild.log
   - cat compile_commands.json
   - cat /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/$DEFAULT_SDK/usr/include/module.modulemap
+  - ls -al /usr/local/include/c++/v1/
+  - ls -al /usr/local/lib/clang/5.0.0/include/
   - oclint-json-compilation-database -v -e Pods
   - cat ./sonar-reports/oclint.xml
