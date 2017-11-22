@@ -3,10 +3,16 @@ matrix:
   include:
     - os: osx
       osx_image: xcode9.1
+      env:
+        - DEFAULT_SDK=iPhoneSimulator11.1.sdk
     - os: osx
       osx_image: xcode9
+      env:
+        - DEFAULT_SDK=iPhoneSimulator11.0.sdk
     - os: osx
       osx_image: xcode8.3
+      env:
+        - DEFAULT_SDK=iPhoneSimulator10.3.sdk
 before_install:
 # Download oclint
   - pod repo update
@@ -31,5 +37,6 @@ script:
   - xcodebuild -scheme SampleOCLint -workspace SampleOCLint.xcworkspace -configuration Debug -sdk iphonesimulator | tee xcodebuild.log | xcpretty -r json-compilation-database -o compile_commands.json
   - cat xcodebuild.log
   - cat compile_commands.json
+  - cat /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/$DEFAULT_SDK/usr/include/module.modulemap
   - oclint-json-compilation-database -v -e Pods
   - cat ./sonar-reports/oclint.xml
